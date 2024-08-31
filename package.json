@@ -1,0 +1,16 @@
+{
+  "name": "lethotellerie_022024",
+  "version": "1.0.0",
+  "description": "elaboration de la lettre d'information pour l'hotellerie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mjml index.mjml -o index.html"
+  },
+  "keywords": [],
+  "author": "Philippe",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.15.3"
+  }
+}

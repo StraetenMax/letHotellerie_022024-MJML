@@ -1,0 +1,223 @@
+<mjml>
+<!--Head-->
+<mj-head>
+    <mj-attributes>
+        <mj-text padding="0"/>
+        <mj-image padding="0"/>
+        <mj-class name="d-section" background-color="#ffffff" width="600px" padding="0px 30px"/>
+        <mj-class name="d-titre" padding="2px 0 10px 0" font-size="34px" font-weight="600" line-height="38px" color="#a0191d" />
+        <mj-class name="d-sous-titre" padding-bottom="2px" font-size="16px" font-weight="900" line-height="18px" color="#74151e"/>
+        <mj-class name="d-chapeau" font-size="16px" font-weight="500" line-height="22px" color="#626262"/>
+        <mj-class name="d-question" padding-top="10px" font-size="13px" line-height="17px" font-weight="700" color="#a0191d" />
+        <mj-class name="d-reponse" padding-bottom="10px" font-size="13px" line-height="17px" font-weight="400" color="#626262" />
+        <mj-class name="d-admin" align="center" font-size="9px" line-height="11px" font-weight="400" color="#626262"/>
+        <mj-class name="d-adresse" padding-top="5px" align="left" font-size="12px" font-weight="300" color="#ffffff" />
+        <mj-all font-family="Arial"/>
+    </mj-attributes>
+    
+    <mj-style> 
+        .hover:hover td, .hover:hover a{ background-color:#c21718 !important; }
+    </mj-style>
+
+    <mj-breakpoint width="480px"/>
+</mj-head>
+<!--Body-->
+    <mj-body background-color="#dedede">
+    <!--header-->
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-text mj-class="d-admin" padding="5px">
+                    Si tu ne parviens pas à lire cet e-mail, clique <a href="{{ mirror}}">ici</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--bandeau logo-->
+        <mj-section mj-class="d-section" padding="0px">
+            <mj-column>
+                <mj-image src="https://img.mailinblue.com/3403292/images/content_library/original/65d735d29193db831c02577a.jpg" alt="logo de l'école Ecosup Hôtellerie installée à Tourcoing" href="https://ecosup-hotellerie.fr"/>
+                <mj-text font-size="15px" padding="6px 0px 6px 30px" text-transform="uppercase">
+                    <strong>newsletter ecosup hôtellerie</strong> | numéro 1
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Hero-->
+        <mj-section mj-class="d-section" padding="0px">
+            <mj-column>
+                <mj-image src="https://img.mailinblue.com/3403292/images/content_library/original/65d7366245e5d1445f167f22.jpg" alt="Les métiers de l'hôtellerie et de la restauration" href="https://ecosup-hotellerie.fr/mise-a-niveau-2"/>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="d-section" background-color="#f8f5f5" padding-top="20px" padding-bottom="20px" >
+        <mj-column>
+            <mj-text mj-class="d-sous-titre" text-transform="uppercase">
+            Dossier
+            </mj-text>
+            <mj-text mj-class="d-titre">
+            L'hôtellerie et la restauration : des perspectives <span style="letter-spacing:-2px;color:#c21718;">INCROYABLES!</span>
+            </mj-text>
+            <mj-text mj-class="d-chapeau">
+            Jamais la demande n'a été si forte, les entreprises vous attendent.
+            </mj-text>
+            <mj-text mj-class="d-chapeau">
+            Formez vous maintenant et performez demain.
+            </mj-text>
+            <mj-text mj-class="d-chapeau">
+            A l'heure où de nombreux métiers vont disparaître avec la montée de l'IA, ce secteur déjà très porteur va encore demander plus de professionnels.
+            </mj-text>
+        </mj-column>
+        </mj-section>
+        <!--Section Principale-->
+        <mj-section mj-class="d-section" padding-top="20px" padding-bottom="20px">
+        <!--Première colonne-->
+            <mj-column width="270px" padding="0px 5px">
+            <mj-text mj-class="d-question">
+            J'ai un bac général ou un bac pro, comment puis-je faire ce BTS de management hôtelier ?
+            </mj-text>
+            <mj-text mj-class="d-reponse">
+            C'est en effet une particularité, il faut faire la MAN obligatoirement, c'est donc un BTS qui se fait en 3 ans .
+            </mj-text>
+            <mj-text mj-class="d-question">
+                Qu'est ce la MAN ?
+            </mj-text> 
+            <mj-text mj-class="d-reponse">
+                Mise à niveau, en 1 an, où tu vas te former aux compétences métiers dans un programme dynamique et ludique. Tu ne verras pas passer le temps dans cette année. Tu vas apprendre les bases pour ensuite faire ton apprentissage.
+            </mj-text>
+            <mj-text mj-class="d-question">
+                Combien coûte l'école ?
+            </mj-text>
+            <mj-text mj-class="d-reponse">
+                C'est la bonne nouvelle ! Le BTS, le Bachelor et le Master se font en apprentissage, l'école est donc gratuite. 
+            </mj-text>
+            <mj-text mj-class="d-question">
+                La MAN est gratuite aussi ?
+            </mj-text>
+            <mj-text mj-class="d-reponse">
+                Afin de bien te préparer et de te rendre très performant dans ton BTS, nous avons choisi de garder la MAN en scolaire. Tu pourras ainsi bénéficier tous les jours de nos installations techniques et de l'accompagnement pédagogique et bienveillant de nos enseignants. 
+            </mj-text>
+            <mj-text mj-class="d-question">
+                Du coup combien coûte la MAN ?
+            </mj-text>
+            <mj-text mj-class="d-reponse">
+                C'est l'autre bonne nouvelle ! Le coût de la formation ne doit pas être un frein dans ta motivation. Pour cela, nous sommes accompagnés par un fond de dotation qui peut t'aider sur la totalité des frais de cette scolarité.
+            </mj-text> 
+            <mj-text mj-class="d-question">
+                Comment ça marche ?
+            </mj-text>
+            <mj-text mj-class="d-reponse">
+            Il s'agit d'un prêt d'honneur qui ne comporte aucun frais ni intérêt, aucun agio, aucun frais de dossier, de caution, de garantie ou d'hypothèque.
+            Il peut couvrir la totalité des frais de scolarité de la MAN, soit 5650 €.
+            Ce prêt d'honneur t'est accordé sans garant, sans caution. Il est directement versé à l'école pour couvrir tes frais de scolarité.
+            </mj-text>
+            <mj-text mj-class="d-question">
+            Comment on rembourse ce prêt ?
+            </mj-text>
+            <mj-text mj-class="d-reponse">
+            Après ta MAN, tu seras en apprentissage. Tu auras donc un salaire. Tu choisiras librement le montant de ton remboursement (30 €, 60 €, 120 €... ) par mois. Si tu veux changer en cours en augmentant ou diminuant en fonction de tes finances, tu pourras le faire. Tu pourras même rembourser après ta sortie d'études si tu préfères.
+            </mj-text>
+            </mj-column> 
+        <!--Deuxieme colonne-->   
+            <mj-column width="270px" padding="0px 5px">
+                <mj-image fluid-on-mobile="true" src="https://img.mailinblue.com/3403292/images/content_library/original/65d736fae4dd166ca444c78d.png" alt="Restaurant d'application : la préparation de plats servis chaque jour" href="https://ecosup-hotellerie.fr/restaurant-ephemere" />
+                <mj-text mj-class="d-question">
+                    Pourquoi ce fonds de dotation ?
+                </mj-text>
+                <mj-text mj-class="d-reponse">
+                    Nous savons que si tu es motivé et que tu viens dans notre école, tu vas adorer ta MAN, donc tu vas ensuite faire ton BTS. Et nous savons que nous allons te trouver une entreprise en apprentissage grâce au réseau d'entreprises que nous avons. 
+                </mj-text>
+                <mj-text mj-class="d-reponse">
+                    Nous voulons te donner toutes les chances d'intégrer notre école et nos formations top qualité, quels que soient tes revenus et donc nous allons aider nos entreprises partenaires a avoir des apprentis, plus tard des employés formés en supérieur, et donc préserver ce patrimoine français de l'hôtellerie-restauration.                   
+                </mj-text>
+                <mj-text mj-class="d-question">
+                    Comment est financée la fondation ?                     
+                </mj-text>
+                <mj-text mj-class="d-reponse">
+                    C'est un cercle vertueux : l'intégralité des remboursements effectués par les bénéficiaires de la fondation est consacrée à accorder d'autres prêts d'honneur à d'autres étudiants pour leur permettre eux aussi d'avoir accès à ces études supérieures de l'hôtellerie - restauration.
+                </mj-text>
+                <mj-text mj-class="d-question">
+                    Je n'ai jamais entendu parler d'un tel dispositif.                   
+                </mj-text>
+                <mj-text mj-class="d-reponse">
+                    Peu d'école en France ont pu mettre en place un tel dispositif, destiné à permettre le plus largement possible l'accès à des études de qualité et ensuite l'accès à des emplois hyper motivants. C'est une fierté pour nous d'aider les jeunes à trouver leur voie et d'aider les entreprises à trouver de bons professionnels. 
+                </mj-text>
+                <mj-image fluid-on-mobile="true" src="https://img.mailinblue.com/3403292/images/content_library/original/65d7371445e5d1445f167f4d.png" alt="Restaurant d'application : le travail en cuisine" href="https://ecosup-hotellerie.fr/restaurant-ephemere" />
+            </mj-column>
+        </mj-section>
+    <!--Section secondaire-->
+        <mj-section mj-class="d-section" background-color="#f9cfcd" padding-top="15px" padding-bottom="15px">
+        <mj-column width="540px" padding="0px 5px">
+            <mj-text mj-class="d-sous-titre">
+            Intéressé par nos formations.
+            </mj-text>
+            <mj-text mj-class="d-sous-titre">
+            Rencontrons-nous
+            </mj-text>
+        </mj-column>
+            <mj-column width="270px" padding="0px 5px">
+                <mj-text mj-class="d-question">
+                    Comment puis je avoir plus de renseignements ?                    
+                </mj-text>
+                <mj-text mj-class="d-reponse" >
+                    Nous sommes ouverts du lundi au vendredi. Tu viens quand tu veux. Tu pourras rencontrer des profs et des étudiants et parler librement avec eux. Tu seras toujours le bienvenue. 
+                </mj-text>
+            </mj-column>
+            <mj-column width="270px" padding="0px 5px"> 
+                <mj-text mj-class="d-question" >
+                    Puis je essayer la formation ?     
+                </mj-text>
+                <mj-text mj-class="d-reponse">
+                    Pareil, c'est quand tu veux. C'est 100 % gratuit. Tu viens et tu intègres la classe pour une journée ou deux. Tu verras l'ambiance, tu découvriras les métiers, tu pourras te projeter dans ce qui va devenir TON école. C'est sans engagement et on t'accueillera avec plaisir.
+                </mj-text>
+                <mj-button css-class="hover" padding="20px 0" border-radius="12px" text-transform="uppercase" background-color="#74151e" color="#ffffff" href="https://ecosup-hotellerie.fr/demande-rendez-vous">
+                    demande de rendez-vous
+                </mj-button>
+            </mj-column>
+        </mj-section>    
+            <mj-section mj-class="d-section">
+                <mj-column>
+                     <mj-spacer height="20px" container-background-color="#ffffff"/>      
+                </mj-column>
+            </mj-section>
+    <!--footer-->
+        <mj-section mj-class="d-section" background-color="#C21718" padding-top="20px" padding-bottom="40px">
+            <mj-group> 
+        <mj-column width="270px" >
+            <mj-image width="182px" align="left" src="https://img.mailinblue.com/3403292/images/content_library/original/65d737569193db831c0257de.png" alt="le logo d'Ecosup campus" href="https://ecosup-campus.com"/>
+            <mj-text mj-class="d-adresse">
+                17 rue Charles et Albert Roussel
+            </mj-text>
+            <mj-text mj-class="d-adresse">
+                59200 TOURCOING
+            </mj-text>
+            <mj-text mj-class="d-adresse">
+                Tél. <strong>03 20 70 06 06</strong>
+            </mj-text>
+            <mj-text mj-class="d-adresse">
+                contact@ecosup-campus.fr
+            </mj-text>
+        </mj-column>
+        <mj-column width="270px">
+            <mj-social align="right" icon-size="30px" mode="horizontal" padding="0px" inner-padding="0px 0px 0px 20px" >
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65d737889193db831c0257f0.png" alt="icon de Linkedin" href="https://fr.linkedin.com/company/ecosup-campus">
+                </mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65d737a79193db831c0257f9.png" alt="icon de facebook" href="https://www.facebook.com/eshlille59/">
+                </mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65d737d245e5d1445f167f8d.png" alt="icon d'instagram" href="https://www.instagram.com/ecosup.hotellerie/">
+                </mj-social-element>
+            </mj-social>
+        </mj-column>
+       </mj-group>
+        </mj-section>
+        <mj-section mj-class="d-section">
+            <mj-column>
+            <mj-text mj-class="d-admin" padding-top="5px">
+                Pour être sûr(e) de recevoir nos communications, ajoute contact@ecosup-campus.fr dans ton carnet d'adresses.    
+            </mj-text>
+            <mj-text mj-class="d-admin" padding-bottom="5px">
+                Pour te désinscrire de nos communications par courriel, clique <a href="{{ unsubscribe }}">ici</a>.
+            </mj-text>  
+            <mj-text mj-class="d-admin" padding-bottom="10px">
+                ©2024 ECOSUP CAMPUS
+            </mj-text>  
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
