@@ -5,7 +5,7 @@
         <mj-text padding="0"/>
         <mj-image padding="0"/>
         <mj-class name="d-section" background-color="#ffffff" width="600px" padding="0px 30px"/>
-        <mj-class name="d-titre" padding="2px 0 10px 0" font-size="34px" font-weight="600" line-height="38px" color="#a0191d" />
+        <mj-class name="d-titre" padding="2px 0 10px 0" font-size="30px" font-weight="600" line-height="34px" color="#a0191d" />
         <mj-class name="d-sous-titre" padding-bottom="2px" font-size="16px" font-weight="900" line-height="18px" color="#74151e"/>
         <mj-class name="d-chapeau" font-size="16px" font-weight="500" line-height="22px" color="#626262"/>
         <mj-class name="d-question" padding-top="10px" font-size="13px" line-height="17px" font-weight="700" color="#a0191d" />
@@ -68,7 +68,7 @@
         <!--Section Principale-->
         <mj-section mj-class="d-section" padding-top="20px" padding-bottom="20px">
         <!--Première colonne-->
-            <mj-column width="270px" padding="0px 5px">
+            <mj-column width="50%" padding="0px 5px">
             <mj-text mj-class="d-question">
             J'ai un bac général ou un bac pro, comment puis-je faire ce BTS de management hôtelier ?
             </mj-text>
@@ -115,7 +115,7 @@
             </mj-text>
             </mj-column> 
         <!--Deuxieme colonne-->   
-            <mj-column width="270px" padding="0px 5px">
+            <mj-column width="50%" padding="0px 5px">
                 <mj-image fluid-on-mobile="true" src="https://img.mailinblue.com/3403292/images/content_library/original/65d736fae4dd166ca444c78d.png" alt="Restaurant d'application : la préparation de plats servis chaque jour" href="https://ecosup-hotellerie.fr/restaurant-ephemere" />
                 <mj-text mj-class="d-question">
                     Pourquoi ce fonds de dotation ?
@@ -143,7 +143,7 @@
         </mj-section>
     <!--Section secondaire-->
         <mj-section mj-class="d-section" background-color="#f9cfcd" padding-top="15px" padding-bottom="15px">
-        <mj-column width="540px" padding="0px 5px">
+        <mj-column width="100%" padding="0px 5px">
             <mj-text mj-class="d-sous-titre">
             Intéressé par nos formations.
             </mj-text>
@@ -151,7 +151,7 @@
             Rencontrons-nous
             </mj-text>
         </mj-column>
-            <mj-column width="270px" padding="0px 5px">
+            <mj-column width="50%" padding="0px 5px">
                 <mj-text mj-class="d-question">
                     Comment puis je avoir plus de renseignements ?                    
                 </mj-text>
@@ -159,7 +159,7 @@
                     Nous sommes ouverts du lundi au vendredi. Tu viens quand tu veux. Tu pourras rencontrer des profs et des étudiants et parler librement avec eux. Tu seras toujours le bienvenue. 
                 </mj-text>
             </mj-column>
-            <mj-column width="270px" padding="0px 5px"> 
+            <mj-column width="50%" padding="0px 5px"> 
                 <mj-text mj-class="d-question" >
                     Puis je essayer la formation ?     
                 </mj-text>
@@ -178,8 +178,8 @@
             </mj-section>
     <!--footer-->
         <mj-section mj-class="d-section" background-color="#C21718" padding-top="20px" padding-bottom="40px">
-            <mj-group> 
-        <mj-column width="270px" >
+            <!--<mj-group width="100%">-->
+        <mj-column width="50%" >
             <mj-image width="182px" align="left" src="https://img.mailinblue.com/3403292/images/content_library/original/65d737569193db831c0257de.png" alt="le logo d'Ecosup campus" href="https://ecosup-campus.com"/>
             <mj-text mj-class="d-adresse">
                 17 rue Charles et Albert Roussel
@@ -194,7 +194,7 @@
                 contact@ecosup-campus.fr
             </mj-text>
         </mj-column>
-        <mj-column width="270px">
+        <mj-column width="50%">
             <mj-social align="right" icon-size="30px" mode="horizontal" padding="0px" inner-padding="0px 0px 0px 20px" >
                 <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65d737889193db831c0257f0.png" alt="icon de Linkedin" href="https://fr.linkedin.com/company/ecosup-campus">
                 </mj-social-element>
