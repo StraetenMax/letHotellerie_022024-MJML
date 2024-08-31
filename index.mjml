@@ -11,12 +11,26 @@
         <mj-class name="d-question" padding-top="10px" font-size="13px" line-height="17px" font-weight="700" color="#a0191d" />
         <mj-class name="d-reponse" padding-bottom="10px" font-size="13px" line-height="17px" font-weight="400" color="#626262" />
         <mj-class name="d-admin" align="center" font-size="9px" line-height="11px" font-weight="400" color="#626262"/>
-        <mj-class name="d-adresse" padding-top="5px" align="left" font-size="12px" font-weight="300" color="#ffffff" />
+        <mj-class name="d-adresse" padding-top="5px" font-size="12px" font-weight="300" color="#ffffff" />
         <mj-all font-family="Arial"/>
     </mj-attributes>
     
     <mj-style> 
         .hover:hover td, .hover:hover a{ background-color:#c21718 !important; }
+        //.a-left td, .a-left div{
+        //    align: left !important;
+        //    align-text: left !important;
+        //}    
+        //.a-right td, .a-right div{
+        //    align: right !important;
+        //    align-text: right !important;
+        //}
+        @media screen and (max-width: 480px) {
+            .alc span {
+                align: center !important;
+                display: block;
+            }
+        }
     </mj-style>
 
     <mj-breakpoint width="480px"/>
@@ -178,29 +192,28 @@
             </mj-section>
     <!--footer-->
         <mj-section mj-class="d-section" background-color="#C21718" padding-top="20px" padding-bottom="40px">
-            <!--<mj-group width="100%">-->
-        <mj-column width="50%" >
-            <mj-image width="182px" align="left" src="https://img.mailinblue.com/3403292/images/content_library/original/65d737569193db831c0257de.png" alt="le logo d'Ecosup campus" href="https://ecosup-campus.com"/>
-            <mj-text mj-class="d-adresse">
+        <mj-column >
+            <!--<mj-image css-class="a-left" width="182px" src="https://img.mailinblue.com/3403292/images/content_library/original/65d737569193db831c0257de.png" alt="le logo d'Ecosup campus" href="https://ecosup-campus.com"/>-->
+            <mj-text css-class="alc" mj-class="d-adresse">
                 17 rue Charles et Albert Roussel
             </mj-text>
-            <mj-text mj-class="d-adresse">
+            <mj-text css-class="alc" mj-class="d-adresse">
                 59200 TOURCOING
             </mj-text>
             <mj-text mj-class="d-adresse">
-                Tél. <strong>03 20 70 06 06</strong>
+                <span class="alc" > Tél. <strong>03 20 70 06 06</strong></span>
             </mj-text>
-            <mj-text mj-class="d-adresse">
+            <mj-text css-class="alc" mj-class="d-adresse">
                 contact@ecosup-campus.fr
             </mj-text>
         </mj-column>
-        <mj-column width="50%">
-            <mj-social align="right" icon-size="30px" mode="horizontal" padding="0px" inner-padding="0px 0px 0px 20px" >
-                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65d737889193db831c0257f0.png" alt="icon de Linkedin" href="https://fr.linkedin.com/company/ecosup-campus">
+        <mj-column>
+            <mj-social icon-size="30px" mode="horizontal" padding="0px" inner-padding="0px 10px" css-class="alC" >
+                <mj-social-element css-class="alC" src="https://img.mailinblue.com/3403292/images/content_library/original/65d737889193db831c0257f0.png" alt="icon de Linkedin" href="https://fr.linkedin.com/company/ecosup-campus">
                 </mj-social-element>
-                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65d737a79193db831c0257f9.png" alt="icon de facebook" href="https://www.facebook.com/eshlille59/">
+                <mj-social-element css-class="alC" src="https://img.mailinblue.com/3403292/images/content_library/original/65d737a79193db831c0257f9.png" alt="icon de facebook" href="https://www.facebook.com/eshlille59/">
                 </mj-social-element>
-                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65d737d245e5d1445f167f8d.png" alt="icon d'instagram" href="https://www.instagram.com/ecosup.hotellerie/">
+                <mj-social-element css-class="alC" src="https://img.mailinblue.com/3403292/images/content_library/original/65d737d245e5d1445f167f8d.png" alt="icon d'instagram" href="https://www.instagram.com/ecosup.hotellerie/">
                 </mj-social-element>
             </mj-social>
         </mj-column>
